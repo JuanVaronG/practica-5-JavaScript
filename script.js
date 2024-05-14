@@ -9,7 +9,6 @@ console.log("-1.123")
 //tipos de datos
 /* declarar una variable */
 let nombre ="juan varon"
-CSSCounterStyleRule,
 console.log(nombre)
 
 let Numero1 = 7;
