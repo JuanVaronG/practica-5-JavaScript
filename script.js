@@ -76,5 +76,6 @@ console.log(usuario)
 console.log(usuario.nombre)
 console.log(usuario.ubicacion.latitud)
 
+
 usuario.edad = 30
 console.log(usuario.edad)
