@@ -79,3 +79,53 @@ console.log(usuario.ubicacion.latitud)
 
 usuario.edad = 30
 console.log(usuario.edad)
+
+// tipos de datos vacios 
+
+// null - nulo
+let espacioVacio = null
+
+// undefined - indefinido
+let noDefinido = undefined
+
+let algo 
+console.log(algo)
+
+// NaN - Not a Number - no es un numero
+const noEsNumero = NaN
+const multiplicacion = 10 * "hola"
+console.log(multiplicacion)
+
+
+// -------- Estructuras de control ---------
+
+// Bucles - un proceso que se repite 
+// Loop - bucle in finito
+
+const ListaAnimales = [
+    "perro",
+    "gato",
+    "oso",
+    "gallina",
+    "zorro",
+    "paloma"
+]
+
+console.log("tamaño del array:", ListaAnimales.length)
+
+// parametro 1: contador
+// parametro 2: condicion para que se detenga
+// parametro 3: comportamiento del contador 
+
+/* for(let contador = 0; contador < ListaAnimales.length; contador = contador + 1) */ 
+for(let i = 0; i < ListaAnimales.length; i++) {
+    console.log(i)
+    console.log(ListaAnimales[i])
+}
+
+// condiciones 
+// - igualdad: ===
+// - menor que: <
+// - mayor que: >
+// - menor o igual que: <=
+// - mayor o igual que >=
